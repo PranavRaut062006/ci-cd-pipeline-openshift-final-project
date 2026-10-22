@@ -1,14 +1,13 @@
-# CI/CD Tools and Practices Final Project Template
+# CI/CD Final Project: Hit Counter Service
 
-This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
+[![CI workflow](https://github.com/ibm-developer-skills-network/ci-cd-final-project/actions/workflows/workflow.yml/badge.svg)](https://github.com/ibm-developer-skills-network/ci-cd-final-project/actions/workflows/workflow.yml)
 
-## Usage
+This repository contains the complete implementation of the Final Project for the Coursera course **Continuous Integration and Continuous Delivery (CI/CD)** / **CI/CD Tools and Practices** as part of the IBM DevOps and Software Engineering Professional Certificate.
 
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
-
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template.
-
-Name your repo: `ci-cd-final-project`.
+## Project Name: Hit Counter Service CI/CD Pipeline
+A microservice-based Hit Counter application with complete CI/CD automation featuring:
+- **Continuous Integration (CI):** Automated linting (`flake8`) and unit tests (`nosetests`) running on GitHub Actions.
+- **Continuous Delivery (CD):** Cloud-native pipeline orchestration via **Tekton Pipelines** on **Red Hat OpenShift**, implementing automated workspace cleanup, repository cloning, linting, testing, image building with Buildah, and deployment.
 
 ## Setup
 
